@@ -1,0 +1,124 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+.container{
+	width: 1140px;
+margin: 0px auto;
+}
+/* this is comments */
+.header{
+	width: 100%;
+	float: left;
+}
+.banner{
+	width: 100%;
+	float: left;
+	height: 100px;
+	margin: 20px 0px 0px;
+	
+}
+a,a:hover{
+	text-decoration: none;
+}
+.box1{
+	width: 60%;
+	float: left;
+}
+.box2{
+	width: 40%;
+	float: left;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 20px 0px 0px;
+
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+}
+.navbar li a{
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 20px;
+	color:#303841;
+		}
+ .navbar li a:hover{
+ 	color: #C27E1F;
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	float: left;
+	background: #fff;
+}
+
+ .box3 {
+ 	width: 50%;
+ 	float: left;
+
+	}
+.box3 h2{
+	font-size: 56px;
+	line-height: 66px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 80px 0px 0px;
+}
+.box3 p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.img-fluid{
+	width: 10%;
+}	
+.about.box4{
+		width: 50%;
+		float: left;
+	}
+	.service{
+		width: 100%;
+		height: 600px;
+		float: left;
+		background: #6424C9;
+	}
+	.service.box-5{
+		width: 33.33%;
+		height: 600px;
+		background: #14A800;
+		float: left;
+	}
+		.service.box-6{
+		width: 33.33%;
+		height: 600px;
+		background: #14A888;
+		float: left;
+	}
+		.service.box-7{
+		width: 33.33%;
+		height: 600px;
+		background: #14A811;
+		float: left;
+	}
+	.footer{
+		width: 100%
+		height: 150px;
+		background: black;
+		float: left;
+	}
